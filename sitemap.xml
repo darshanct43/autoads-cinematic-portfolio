@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://autoads.co.in/portfolio/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>AutoAds Real-World Moving Advertising in India</image:title>
+      <image:caption>Auto rickshaw and mobile outdoor advertising platform across Indian cities</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/mumbai.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Mumbai</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/delhi-ncr.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Delhi Ncr</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/bengaluru.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Bengaluru</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/hyderabad.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Hyderabad</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/chennai.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Chennai</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/pune.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Pune</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/ahmedabad.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Ahmedabad</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoads.co.in/portfolio/cities/kolkata.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autoads.co.in/portfolio/assets/scene-1.jpg</image:loc>
+      <image:title>Auto Rickshaw and Outdoor Advertising in Kolkata</image:title>
+    </image:image>
+  </url>
+</urlset>

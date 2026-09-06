@@ -1,0 +1,9 @@
+# AutoAds Cinematic Brand Portfolio - Production Robots Configuration
+User-agent: *
+Allow: /
+Disallow: /scratch/
+Disallow: /test.txt
+Disallow: /test_ps.py
+
+# XML Sitemap
+Sitemap: https://autoads.co.in/portfolio/sitemap.xml
