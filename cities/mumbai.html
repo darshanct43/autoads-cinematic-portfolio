@@ -97,7 +97,7 @@
         <span class="brand-sub">MUMBAI TRANSIT MEDIA</span>
       </div>
     </a>
-    <ul class="nav-menu">
+    <ul class="nav-menu" id="nav-menu">
       <li class="nav-item"><a href="../index.html">MAIN STORY</a></li>
       <li class="nav-item"><a href="../index.html#cities">ALL 38 CITIES</a></li>
       <li class="nav-item"><a href="#opportunities">OPPORTUNITIES</a></li>
@@ -109,6 +109,11 @@
       <a href="https://autoads.co.in" target="_blank" rel="noopener noreferrer" class="btn-cta-nav">
         <span>START ADVERTISING IN MUMBAI ↗</span>
       </a>
+          <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
     </div>
   </header>
 
@@ -225,5 +230,27 @@
     <p>© 2026 AutoAds Media Technologies. Auto-rickshaw and outdoor transit advertising solutions across Mumbai and India.</p>
     <p><a href="../index.html">Main Portfolio</a> · <a href="https://autoads.co.in">Official Portal</a> · <a href="https://hover.business">Hover Business</a></p>
   </footer>
+  <script>
+    (function() {
+      var navToggle = document.getElementById('nav-toggle');
+      var navMenu = document.getElementById('nav-menu');
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', function() {
+          var isOpen = navMenu.classList.toggle('mobile-open');
+          navToggle.classList.toggle('active', isOpen);
+          navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          document.body.style.overflow = isOpen ? 'hidden' : '';
+        });
+        navMenu.querySelectorAll('a').forEach(function(link) {
+          link.addEventListener('click', function() {
+            navMenu.classList.remove('mobile-open');
+            navToggle.classList.remove('active');
+            navToggle.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+          });
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

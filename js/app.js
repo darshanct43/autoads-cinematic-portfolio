@@ -134,6 +134,47 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Mobile Navigation Drawer Toggle
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu = document.getElementById('nav-menu') || document.querySelector('.nav-menu');
+  if (navToggle && navMenu) {
+    const toggleNav = (open) => {
+      const isOpen = open !== undefined ? open : !navMenu.classList.contains('open');
+      navMenu.classList.toggle('open', isOpen);
+      navToggle.classList.toggle('active', isOpen);
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    };
+
+    navToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleNav();
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (navMenu.classList.contains('open') && !navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+        toggleNav(false);
+      }
+    });
+
+    // Close menu when clicking any nav link
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1100) {
+          toggleNav(false);
+        }
+      });
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navMenu.classList.contains('open')) {
+        toggleNav(false);
+      }
+    });
+  }
+
   // Keyboard Navigation for Cinematic Journey
   document.addEventListener('keydown', (e) => {
     const step = window.innerHeight * 0.55;
